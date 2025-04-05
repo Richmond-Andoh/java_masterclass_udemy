@@ -1,19 +1,19 @@
 public class BasicSyntax {
-    public static void main(String[] args) {
+    public static void main(String[] args) {  
+        
         // Variables
         int age = 10;
         double salary = 50000.50;
         char grade = 'A';
         boolean isJavaFun  = true;
         String name = "Richmond Andoh";
-
+       
         // Output
         System.out.println("Age: " + age);
         System.out.println("Salary: " + salary);
         System.out.println("Grade: " + grade);
         System.out.println("Is Java fun? " + isJavaFun);
         System.out.println("Name: " + name);
-
 
         int x = 21;
         int y = 10;
@@ -35,5 +35,5 @@ public class BasicSyntax {
         System.out.println("Logical AND: " + (x > y && y < x));
         System.out.println("Logical OR: " + (x > y || y > x));
         System.out.println("Logical NOT: " + (!( x > y && y < x )));
-    }
-}   
+    };
+};
