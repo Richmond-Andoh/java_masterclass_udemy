@@ -1,4 +1,3 @@
-package SingleDimensionArray;
 import java.util.Arrays;
 
 public class Main{
@@ -22,6 +21,8 @@ public class Main{
        // Call
        SingleDimensionArray firstArr = new SingleDimensionArray(3);
        firstArr.insert(0, 21);
-
+       firstArr.insert(1, 22);
+       firstArr.insert(2, 23);
+       firstArr.insert(3, 24);
     }
 }
