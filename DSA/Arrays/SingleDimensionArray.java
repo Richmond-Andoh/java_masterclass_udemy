@@ -22,4 +22,20 @@ public class SingleDimensionArray {
         }
         
     }
+
+
+    // Array Traversal
+    public void traverseArray() {
+        try {
+            for (int i = 0; i < richieArr.length; i++) {
+            if (richieArr[i] == Integer.MIN_VALUE) {
+                System.out.println("Cell " + i + " is empty");
+            } else {
+                System.out.println("Cell " + i + " contains: " + richieArr[i]);
+            }
+        }
+        } catch (Exception e) {
+            System.out.println("An error occurred while traversing the array: " + e.getMessage());
+        }
+    }
 }
