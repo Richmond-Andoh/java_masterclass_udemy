@@ -1,4 +1,3 @@
-package SingleDimensionArray;
 import java.util.Arrays;
 
 public class Main{
@@ -22,6 +21,19 @@ public class Main{
        // Call
        SingleDimensionArray firstArr = new SingleDimensionArray(3);
        firstArr.insert(0, 21);
+       firstArr.insert(1, 22);
+       firstArr.insert(2, 23);
+       firstArr.insert(3, 24);
 
+
+       // Accessing Element in the Array
+       var firstElement = firstArr.richieArr[0];
+       System.out.println("First Element: " + firstElement);
+
+       var secondElement = firstArr.richieArr[1];
+       System.out.println("Second Element: " + secondElement);
+
+       // Array Traversal
+       firstArr.traverseArray();
     }
 }
